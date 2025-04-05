@@ -9,3 +9,5 @@ def char_replace(s: str, k: int) -> int:
             l += 1
         res = max(res, right_pointer-l+1)
     return res
+
+    # by ido rabin
