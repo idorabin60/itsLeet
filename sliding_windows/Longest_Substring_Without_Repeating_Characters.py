@@ -1,6 +1,5 @@
 def lengthOfLongestSubstring(s: str) -> int:
     max_substring_len = 0
-    currnet_len = 0
     left_pointer = 0
     char_set = set()
     for right_pointer, character in enumerate(s):
