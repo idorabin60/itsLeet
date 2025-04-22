@@ -17,6 +17,6 @@ def solve(numbers: list, target: int):
     return result
 
 
-print(solve([2, 5, 6, 9], 9))
+print(solve([10,1,2,7,6,1,5], 8))
 
 # by ido rabin
