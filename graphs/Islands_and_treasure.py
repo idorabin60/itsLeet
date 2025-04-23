@@ -2,7 +2,7 @@ from typing import List
 from collections import deque
 
 
-def solve(graph: List[List[int]]):
+def islandsAndTreasure(graph: List[List[int]]):
     result_matrix = [
         [-2, -2, -2, -2],
         [-2, -2, -2, -2],
