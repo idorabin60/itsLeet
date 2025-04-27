@@ -32,6 +32,7 @@ def bfs(start_row, start_col, graph) -> int:
 
         if (row, col) in visited:
             continue
+        
         visited.add((row, col))
 
         if graph[row][col] == 0:
@@ -42,6 +43,7 @@ def bfs(start_row, start_col, graph) -> int:
             if 0 <= nr < len(graph) and 0 <= nc < len(graph[0]):
                 if graph[nr][nc] != -1:
                     q.append((nr, nc, dist + 1))
+
 
     return 2147483647
 
