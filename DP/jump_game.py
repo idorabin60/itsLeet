@@ -16,7 +16,7 @@ def solve(index: int, jumps: List[int], memo: dict):
         return False
     else:
         for j in range(index+1, index+jumps[index]+1):
-            if (solve(j, jumps, memo)):
+            if (solve(j, jumps,memo)):
                 memo[index] = True
                 return True
         memo[index] = False
