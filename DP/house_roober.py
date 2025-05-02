@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     def rob(self, nums: List[int]) -> int:
         memo = {}
-        return self.solve(0, nums, memo)  # removed self from inside
+        return self.solve(0, nums, memo) 
 
     def solve(self, index, nums, memo):
         if index in memo:
